@@ -1,30 +1,22 @@
 {
-  "version": "0.9.0",
-  "description": "Decision-first, context-aware, portable memory system CLI",
-  "homepage": "https://hopsule.com",
-  "license": "MIT",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/Hopsule/cli-tool/releases/download/v0.9.0/hopsule-windows-amd64.zip",
-      "hash": "faf52087d1f1872248d82be4d545c0bfee2d2782770a9fd2fc832a2a1f57d137"
-    },
-    "arm64": {
-      "url": "https://github.com/Hopsule/cli-tool/releases/download/v0.9.0/hopsule-windows-arm64.zip",
-      "hash": "13dbc59a76ea5b1b046a1b4b56d724ee894ebc7cd94e791120ec3b06c7dc2da8"
-    }
-  },
-  "bin": "hopsule.exe",
-  "checkver": {
-    "github": "https://github.com/Hopsule/cli-tool"
-  },
-  "autoupdate": {
+    "version": "0.9.1",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/Hopsule/cli-tool/releases/download/v$version/hopsule-windows-amd64.zip"
-      },
-      "arm64": {
-        "url": "https://github.com/Hopsule/cli-tool/releases/download/v$version/hopsule-windows-arm64.zip"
-      }
-    }
-  }
+        "64bit": {
+            "url": "https://github.com/Hopsule/cli-tool/releases/download/v0.9.1/hopsule-windows-amd64.zip",
+            "bin": [
+                "hopsule.exe"
+            ],
+            "hash": "69d4f62e34130d3ee1ad8f522c8f812d82c4ae4af08c1499e741953664cc5c4c"
+        },
+        "arm64": {
+            "url": "https://github.com/Hopsule/cli-tool/releases/download/v0.9.1/hopsule-windows-arm64.zip",
+            "bin": [
+                "hopsule.exe"
+            ],
+            "hash": "55311526c5e5e10bc03c8e2e74cc6d32f1d3df45deb2f0297cadb9595db3faed"
+        }
+    },
+    "homepage": "https://hopsule.com",
+    "license": "MIT",
+    "description": "Decision-first, context-aware, portable memory system CLI"
 }
