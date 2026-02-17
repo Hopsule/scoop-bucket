@@ -1,19 +1,19 @@
 {
-    "version": "0.9.7",
+    "version": "0.9.8",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Hopsule/cli-tool/releases/download/v0.9.7/hopsule-windows-amd64.zip",
+            "url": "https://github.com/Hopsule/cli-tool/releases/download/v0.9.8/hopsule-windows-amd64.zip",
             "bin": [
                 "hopsule.exe"
             ],
-            "hash": "13c1612040e0e87b4c30ceacb574648e172fbb2f3bd8d9b968efce12c02cb191"
+            "hash": "61123a85533b71c1e73c4e22384de1b5e5261555eb17bb4475330f2896fb34a6"
         },
         "arm64": {
-            "url": "https://github.com/Hopsule/cli-tool/releases/download/v0.9.7/hopsule-windows-arm64.zip",
+            "url": "https://github.com/Hopsule/cli-tool/releases/download/v0.9.8/hopsule-windows-arm64.zip",
             "bin": [
                 "hopsule.exe"
             ],
-            "hash": "644d11d9a989ad95d84b585d5d9cfc659c0c8e200018793e01acc06a4a45e69e"
+            "hash": "92b99f2e1522fda8c94b130335c655a14a8a491df5c455f4841f5a7f37bec243"
         }
     },
     "homepage": "https://hopsule.com",
